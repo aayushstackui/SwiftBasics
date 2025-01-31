@@ -79,29 +79,29 @@ print(str1 + str2)
 print(str1 + str2, separator: ".")
 
 //Input value
-//print("What's your home city?")
-//let city = readLine()
-//print("\(city!)is your home city")
+print("What's your home city?")
+let city = readLine()
+print("\(city ?? "")is your home city")
 
-//Arithmetic Operator
-
-var a = 200
-var b = 90
-var c = 80
-
-print(a+b+c)
-print(a*b-c)
-print(a%c+b)
-
-
-//optionals - it gives us capability to create a variable which can have a value or it can be nil
-//by default optional as nil value
-var nickname: String?
-print(nickname)
-
-
-//getting out a value out of a optional variable in safe manner is optional binding
-//1. If let
-//2. guard let
-//3. ?? - nil collecesing operator
-
+////Arithmetic Operator
+//
+//var a = 200
+//var b = 90
+//var c = 80
+//
+//print(a+b+c)
+//print(a*b-c)
+//print(a%c+b)
+//
+//
+////optionals - it gives us capability to create a variable which can have a value or it can be nil
+////by default optional as nil value
+//var nickname: String?
+//print(nickname)
+//
+//
+////getting out a value out of a optional variable in safe manner is optional binding
+////1. If let
+////2. guard let
+////3. ?? - nil collecesing operator
+//
